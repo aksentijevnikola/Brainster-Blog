@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Brainster - Home</title>
+    <link rel="icon" href="./img/brainster_space_logo.svg" type="image/x-icon">
+    <meta name="description" content="" />
+    <meta name="keywords"
+        content="Бреинстер, Академија, Студенти, Курсеви, Проекти, Маркетинг, Дизајн, Програмирање, Веб, Девелопер, Девелопмент, Фронт Енд, Фул Стак, Соработка, Кујна, Иновации, Евенти, Настани, Партнерства, Едукација, Македонија, Brainster, Academy, Courses, Students, Codepreneurs, Marketprenuers, Data-Science, Design, Marketing, Web, Development, Programming, Projects, Front-End, Full-Stack, FrontEnd, FullStack, Developer, Space, Coworking, Kitchen, Innovations, Events, Deep Dive, Partnership, Education, Macedonia" />
+    <meta name="author" content="Nikola Aksentijev, Front-End Developer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/queries.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+   </head>
+
+<body>
+    <div class="navbar-brainster">
+        <div class="navbar-wrapper">
+            <div class="nav-list flex">
+                <a href="./home.html">
+                    <img src="./img/brainster_space_logo.svg" alt="Brainster Logo">
+                </a>
+                <a class="different bold" href="./blog.html">SPACE БЛОГ</a>
+                <a class="different bold" href="./calendar.html">НАСТАНИ</a>
+                <a class="different bold">CO-WORKING</a>
+                <a class="different bold" href="./academies.html">АКАДЕМИИ</a>
+                <a class="different bold" href="./event_space.html">ПРОСТОР ЗА НАСТАНИ</a>
+                <a class="different bold partner-form">ПАРТНЕРСТВА</a>
+            </div>
+            <div class="flex">
+                <a class="bold nav-btn btn-primary join-form">+ ПРИКЛУЧИ СЕ</a>
+                <div class="openBtn">
+                    <span class="bar bar-1 bar-1-x"></span>
+                    <span class="bar bar-2 bar-2-x"></span>
+                    <span class="bar bar-3 bar-3-x"></span>
+                </div>
+            </div>
+        </div>
+        <div id="brainster-sidebar" class="sidebar">
+            <a href="./blog.html" class="sidebar-links"><button class="sidebtn">БЛОГ</button></a>
+            <a href="./calendar.html" class="sidebar-links"><button class="sidebtn">НАСТАНИ</button></a>
+            <a href="#" class="sidebar-links"><button class="sidebtn">CO-WORKING</button></a>
+            <a href="./academies.html" class="sidebar-links"><button class="sidebtn">АКАДЕМИИ</button></a>
+            <a href="./event_space.html" class="sidebar-links"><button class="sidebtn">ПРОСТОР ЗА НАСТАНИ</button></a>
+            <a class="sidebar-links join form"><button class="sidebtn">ПАРТНЕРСТВА</button></a>
+        </div>
+    </div>
+    <div id="modal-container"></div>
+    <div id="home-page">
+        <div class="home-page-wrapper">
+            <div class="showcase">
+                <div class="home-opacity flex">
+                    <p class="showcase-title title">Центар за Учење, Кариера и Иновација</p>
+                </div>
+            </div>
+
+            <div class="about-us">
+                <p class="about-us-title title">За Нас</p>
+                <div class="about-us-cards-container">
+
+                </div>
+            </div>
+
+            <div class="education">
+                <div class="education-text-container">
+                    <p class="education-title title">Едукација</p>
+                    <p class="education-desc">Дали си подготвен да одговориш на потребите на иднината. Вистинските
+                        курсеви,
+                        академии и семинари кои ќе ти овозможат кариерна трансформација во областа дигитален маркетинг,
+                        дизајн,
+                        програмирање и Data Science.</p>
+                    <div class="education-buttons">
+                        <button class="btn-primary showAcademies education-btn">АКАДЕМИИ</button>
+                        <button class="btn-reverse showCompanies education-btn">ЗА КОМПАНИИ</button>
+                    </div>
+                </div>
+                <div class="education-img-container">
+                    <img src="./img/brainster-education-1.jpg" alt="Brainster Education">
+                </div>
+            </div>
+
+            <div class="events">
+                <p class="events-title title">Настани</p>
+                <div class="events-cards-container">
+
+                </div>
+                <div class="events-button-container">
+                    <a href="./calendar.html"><button class="btn-primary events-btn"><i class="fa fa-calendar"
+                                aria-hidden="true"></i> КАЛЕНДАР НА
+                            НАСТАНИ</button></a>
+                </div>
+            </div>
+
+            <div class="coworking">
+                <div class="coworking-img-container">
+                    <img src="./img/brainster-coworking.jpg" alt="Brainster Coworking">
+                </div>
+                <div class="coworking-text-container">
+                    <div class="label-containter"><span class="label">SOLD OUT</span></div>
+                    <p class="coworking-title title">Coworking</p>
+                    <p class="coworking-desc">Биди дел од tech заедницата на иноватори, креативци и претприемачи.
+                        Резервирај стол во нашата shared office. Пичирај го твојот бизнис и нашиот тим заедно ќе одлучи
+                        секој месец со кого да ги дели своите канцеларии.</p>
+                    <div class="coworking-buttons">
+                        <button class="btn-primary coworking-btn">РЕЗЕРВИРАЈ СИ МЕСТО</button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="brainster-space">
+                <div class="brainster-space-text-container">
+                    <p class="brainster-space-title title">Простор за настани</p>
+                    <p class="brainster-space-desc">Имаш идеја за обука или настан од tech областа? Ние имаме простор за
+                        реализација. Нашиот тим внимателно ги одбира и курира сите настани.</p>
+                    <div class="brainster-space-buttons">
+                        <a href="./event_space.html"><button class="btn-primary brainster-space-btn"><i
+                                    class="fa fa-arrow-right" aria-hidden="true"></i>
+                                ВИДИ ГО ПРОСТОРОТ</button></a>
+                    </div>
+                </div>
+                <div class="brainster-space-img-container">
+                    <img src="./img/brainster-space.jpg" alt="Brainster Space">
+                </div>
+            </div>
+
+            <div class="partners">
+                <div class="partners-text-container">
+                    <p class="partners-title title">Партнери</p>
+                    <p class="partners-desc">Имаш идеја? Отворени сме за соработка</p>
+                    <div class="partners-buttons">
+                        <a href="./event_space.html"><button class="btn-primary partners-btn"><i
+                                    class="fa fa-arrow-right" aria-hidden="true"></i> ВИДИ ГО
+                                ПРОСТОРОТ</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="contact-wrapper">
+            <ul class="useful-links">
+                <li class="useful-links-title">Корисни Линкови</li>
+                <li class="useful-link">
+
+                    <a class="different contact-info">Контакт
+                        <span class="contact-pop-up">
+                            <p class="pop-up-txt">Емаил:</p>
+                            <p class="pop-up-txt">anja@brainster.co</p>
+                            <p class="pop-up-txt">Контакт телефон:</p>
+                            <p class="pop-up-txt">(+389) 070-233-414</p>
+                            <div class="arrow-down"></div>
+                        </span>
+                    </a>
+                </li>
+                <li class="useful-link"><a href="https://www.wearelaika.com/" class="different">Oтворени
+                        Позиции</a></li>
+                <li class="useful-link"><a
+                        href="https://medium.com/wearelaika/brainster-space-the-new-home-of-the-local-tech-community-in-skopje-ffe97b564152"
+                        class="different">Галерија</a></li>
+                <li class="useful-link"><a href="./calendar.html" class="different">Календар</a></li>
+            </ul>
+            <ul class="social-media">
+                <li class="social-media-title">Социјални Мрежи</li>
+                <li>
+                    <div>
+                        <a href="https://www.facebook.com/brainster.co/" class="spin-1"></a>
+                        <i class="fa fa-facebook-square facebook-color" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                        <a href="https://www.linkedin.com/school/brainster-co/" class="spin-2" ></a>
+                        <i class="fa fa-linkedin-square linked-in-color" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                        <a href="https://www.instagram.com/brainsterco/" class="spin-3"></a>
+                        <i class="fa fa-instagram instagram-color" aria-hidden="true"></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="contact-logo-container">
+            <img src="./img/brainster_space_logo.svg" alt="Brainster Logo">
+        </div>
+    </div>
+    <div class="footer">
+        <p class="footer-text">COPYRIGHT©BrainsterSpace. All Rights Reserved</p>
+    </div>
+<script src="./assets/js/object-info.js"></script>
+<script src="./assets/js/cards/cards.js"></script>
+<script src="./assets/js/forms/modul-forms.js"></script>
+<script src="./assets/js/home-page.js"></script>
+<script src="./assets/js/app.js"></script>
+</body>
+</html>
