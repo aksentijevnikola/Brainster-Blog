@@ -239,7 +239,7 @@ let blogCards = [
 
 let calendarEvents = [
     {
-        date: new Date(2020, 3, 4),
+        date: new Date(2020, 7, 4),
         title: `Deep Dive into Data Science`,
         time: `10:00 - 18:00ч`,
         part: `Ден 1`,
@@ -248,7 +248,7 @@ let calendarEvents = [
         endDate : new Date(2020, 3, 5)
     },
     {
-        date: new Date(2020, 3, 5),
+        date: new Date(2020, 7, 5),
         title: `Deep Dive into Data Science`,
         time: `10:00 - 18:00ч`,
         part: `Ден 2`,
@@ -256,17 +256,17 @@ let calendarEvents = [
         textColor: `#ffffff`
     },
     {
-        date: new Date(2020, 3, 25),
+        date: new Date(2020, 7, 25),
         title: `Deep Dive into Marketing`,
         time: `10:00 - 18:00ч`,
         part: `Ден 1`,
         bgColor: `#FF1300`,
         textColor: `#ffffff`,
-        endDate: new Date(2020, 3, 26)
+        endDate: new Date(2020, 7, 26)
     }
     ,
     {
-        date: new Date(2020, 3, 26),
+        date: new Date(2020, 7, 26),
         title: `Deep Dive into Marketing`,
         time: `10:00 - 18:00ч`,
         part: `Ден 2`,
