@@ -705,8 +705,10 @@
     }
 
     .calendar-navigation {
-        width : 41%;
-        margin: 4rem 0 8rem 0;
+        width : 36rem;
+        margin: 4rem 0 1.75rem 0;
+        display: flex;
+        justify-content: space-between;
     }
 
     .calendar-days {
@@ -751,7 +753,9 @@
         height: auto;
         width : 100%;
     }
-
+    .blog-slideshow {
+        height: calc(100vh - 93px);
+    }
     .blog-card-container .card {
         width : 100%;
         margin: 10px 0;
