@@ -9,7 +9,7 @@ function openNav() {
   if (window.matchMedia("(max-width: 991px)").matches) {
     if (checkNavState == false) {
       checkNavState = true;
-      brainsterSidebar.style.cssText = "height: 40vh; padding: 2rem 0;";
+      brainsterSidebar.style.cssText = "height: 35vh; padding: 2rem 0;";
       openBtn.style.padding = '20.5px';
       barOne.classList.remove('bar-1-x');
       barTwo.classList.remove('bar-2-x');
@@ -20,6 +20,7 @@ function openNav() {
 
       if (window.matchMedia("(max-width: 767px)").matches) {
         brainsterSidebar.innerHTML += `<a><button class="sidebtn-join join-form btn-reverse">+ ПРИКЛУЧИ СЕ</button></a>`
+        brainsterSidebar.style.cssText = "height: 60vh; padding: 2rem 0;";
       }
     } else {
       brainsterSidebar.style.cssText = "height: 0; padding: 0;";
