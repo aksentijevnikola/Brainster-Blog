@@ -23,7 +23,18 @@ h6,
 textarea {
     resize: none;
 }
-
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+}
+*::selection{
+	background-color: #FCD232;
+	color: #0E0E0E;
+}
 a {
     text-decoration: none;
 }
